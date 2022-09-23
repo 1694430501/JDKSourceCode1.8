@@ -113,7 +113,7 @@ public class ArrayBlockingQueue<E> extends AbstractQueue<E>
     /** Condition for waiting takes */
     private final Condition notEmpty;
 
-    /** Condition for waiting puts 阿斯顿发生*/
+    /** Condition for waiting puts */
     private final Condition notFull;
 
     /**
